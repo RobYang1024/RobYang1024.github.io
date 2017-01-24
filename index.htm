@@ -6,8 +6,11 @@
     <meta name="keywords" content="Robert, Yang">
     <meta name="author" content="Robert Yang">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
 
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 
     <title>About Me</title>
 
@@ -20,7 +23,7 @@
     }
 
     div.iconlinks{
-      max-width: 200px;
+      /*max-width: 200px;*/
       margin:auto;
       position: relative;
       font-size: 160%;
@@ -60,37 +63,57 @@
 
   <body>
 
-    <p id = "nameTitle">Robert Yang</p>
-    <div class = iconlinks>
-      <a href=https://www.linkedin.com/in/robert-yang target="_blank"><span style=color:rgb(28,135,189)><i class="fa fa-linkedin-square"></i></span></a>
-      &nbsp;&nbsp;&nbsp;
-      <a href=https://github.com/RobYang1024 target="_blank"><span style=color:black><i class="fa fa-github"></i></span></a>
-      &nbsp;&nbsp;&nbsp;
-      <a href=mailto:ry92@cornell.edu><span style=color:grey title="I can be reached at ry92@cornell.edu"><i class="fa fa-envelope-o"></i></span></a>
-      &nbsp;&nbsp;&nbsp;
-      <a href = resources/RobertYangResumeUpdated8Jan2017.pdf target="_blank" title="Link to a .pdf of my resume"><span style=color:rgb(41,136,245)><i class="fa fa-id-card-o"></i></span></a>
+    <div class = row;>
+      <div class = "col-sm-3">
+      </div>
+      <div class = "col-sm-6">
+        <p id = "nameTitle">Robert Yang</p>
+        <div class = iconlinks>
+          <a href=https://www.linkedin.com/in/robert-yang target="_blank"><span style=color:rgb(28,135,189)><i class="fa fa-linkedin-square"></i></span></a>
+          &nbsp;&nbsp;&nbsp;
+          <a href=https://github.com/RobYang1024 target="_blank"><span style=color:black><i class="fa fa-github"></i></span></a>
+          &nbsp;&nbsp;&nbsp;
+          <a href=mailto:ry92@cornell.edu><span style=color:grey title="I can be reached at ry92@cornell.edu"><i class="fa fa-envelope-o"></i></span></a>
+          &nbsp;&nbsp;&nbsp;
+          <a href = resources/RobertYangResumeUpdated16Jan2017.pdf target="_blank" title="Link to a .pdf of my resume"><span style=color:rgb(41,136,245)><i class="fa fa-id-card-o"></i></span></a>
+        </div>
+      </div>
+      <div class = "col-sm-3">
+      </div>
     </div>
 
-    <div class = introduction>
-      <img class=personal src="images/Profile_Picture.jpg" alt="Personal Picture">
-      Hello there! I am currently a student enrolled in Cornell University's College of Arts and Sciences. I wish to major in Computer Science and potentially minor in Physics and/or Astronomy.
-      <br>
-      <br>
-      My experience lies mainly in Java, though I have experience with Swift as well. I plan on learning web development (HTML, CSS, and Javascript) before second semester begins. I also plan on attending hackathons in the future. In addition, I am proficient with data structures.
-      <br>
-      <br>
-      When I'm not busy with course work, you'll find me participating in Settlers of Catan games, practicing wushu, playing piano, or running down to Collegetown with a group of friends at 11PM in the dead of the Ithaca winter just to grab some bubble tea.
-      <br>
-      <br>
-      No, it is never "too cold" for bubble tea.
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <div class=introduction>
+          <img class=personal src="images/Profile_Picture.jpg" alt="Personal Picture">
+          Hello there! I am currently a student enrolled in Cornell University's College of Arts and Sciences. I wish to major in Computer Science and potentially minor in Physics and/or Astronomy.
+          <br>
+          <br>
+          My experience lies mainly in Java, though I have experience with Swift as well. I plan on learning web development (HTML, CSS, and Javascript) before second semester begins. I also plan on attending hackathons in the future. In addition, I am proficient with data structures.
+          <br>
+          <br>
+          When I'm not busy with course work, you'll find me participating in Settlers of Catan games, practicing wushu, playing piano, or running down to Collegetown with a group of friends at 11PM in the dead of the Ithaca winter just to grab some bubble tea.
+          <br>
+          <br>
+          No, it is never "too cold" for bubble tea.
+        </div>
+      </div>
+      <div class="col-sm-2"></div>
     </div>
 
-    <div class = note>
-      Note: This website is temporary. A proof of concept. I will be revamping it in the near future once I get a hang of Bootstrap, and perhaps once again once I learn more about JavaScript.
-      <br>
-      <br>
-      <br>
-      <center>Made by Robert Yang &copy; 2017</center>
+    <div class = row>
+      <div class = "col-sm-2"></div>
+      <div class = "col-sm-8">
+        <div class = note>
+          Note: This website is temporary. I will be revamping it in the near future once I get a hang of Bootstrap and JavaScript.
+          <br>
+          <br>
+          <br>
+          <center>Made by Robert Yang &copy; 2017</center>
+        </div>
+      </div>
+      <div class = "col-sm-2"></div>
     </div>
 
   </body>
