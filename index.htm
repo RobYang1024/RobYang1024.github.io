@@ -57,12 +57,33 @@
       font-size: 70%
     }
 
+    div.parallax1{
+      background-image:url("images/FallPanoramaOverCayuga.jpg");
+      height: 30%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
     </style>
+
+    <script>
+    function parallax(){
+      var scrolled = $(window).scrollTop();
+      $('.bg').css('top', -(scrolled*0.2) + 'px');
+    }
+
+    $(window).scroll(function(e){
+      parallax();
+    });
+
+    </script>
 
   </head>
 
   <body>
 
+    </div>
     <div class = "row">
       <div class = "col-sm-3"></div>
       <div class = "col-sm-6">
@@ -89,7 +110,19 @@
           <br>
           <br>
           My experience lies mainly in Java, though I have experience with Swift as well. I plan on learning web development (HTML, CSS, and Javascript) before second semester begins. I also plan on attending hackathons in the future. In addition, I am proficient with data structures.
-          <br>
+        </div>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+
+    <div class = "row">
+      <div class = "parallax1">
+    </div>
+
+    <div class = "row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <div class=introduction>
           <br>
           When I'm not busy with course work, you'll find me participating in Settlers of Catan games, practicing wushu, playing piano, singing for the Cornell Chorale, or running down to Collegetown with a group of friends at 11PM in the dead of the raging Ithaca winter just to grab some bubble tea.
           <br>
